@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 50px;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar-left, .sidebar-right {
+    flex: 1;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 10px;
+}
+
+.login-form > div {
+    display: flex;
+}
+
+.login-form > div > label {
+    flex: 1;
+}
+
+.login-form > div > input {
+    flex: 3;
+}
+
+.footer {
+    height: 50px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/users.css">
+    <script src="scripts/users.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+
+    <title>Users</title>
+</head>
+<body>
+    <table id="users-table">
+        <tr>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Name</th>
+            <th>E-Mail</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>Postal Code</th>
+            <th>Country</th>
+            <th>Picture</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        
+    </table>
+
+    <hr>
+
+    <div id="edit-user-fields">
+        <input type="text" name="username" id="username" placeholder="Username">
+        <input type="password" name="password" id="password" placeholder="Password">
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="email" name="email" id="email" placeholder="E-Mail">
+        <input type="text" name="address" id="address" placeholder="Address">
+        <input type="text" name="city" id="city" placeholder="City">
+        <input type="text" name="postalcode" id="postalcode" placeholder="Postal Code">
+        <input type="text" name="country" id="country" placeholder="Country">
+        <input type="file" name="picture" id="picture" accept="image/png, image/jpg, image/jpeg, image/gif">
+        <input type="submit" value="Submit" id ="submit-button">
+    </div>
+</body>
+</html>
